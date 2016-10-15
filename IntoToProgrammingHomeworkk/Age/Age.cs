@@ -4,40 +4,26 @@ class Age
 {
     static void Main()
     {
-        var bornDate = Console.ReadLine();
-        DateTime a = Convert.ToDateTime(bornDate);
-        DateTime c = DateTime.Now;
-        int y = c.Year - a.Year;
-        int m = c.Month - a.Month;
-        int d = c.Day - a.Day;
+        String inputDate = Console.ReadLine();
+        DateTime myDate = Convert.ToDateTime(inputDate);
+        DateTime currentDate = DateTime.Now;
+
+        int year = currentDate.Year - myDate.Year;
+        int month = currentDate.Month - myDate.Month;
+        int day = currentDate.Day - myDate.Day;
         int age = 0;
-        if (y >= 0)
+        if (year >= 0 && month >= 0 && day >= 0)
         {
-            if (m >= 0)
-            {
-                if (d >= 0)
-                {
-                    age = y;
-                    Console.WriteLine(age);
-                }
-                else
-                {
-                    age = y - 1;
-                    Console.WriteLine(age);
-                }
-            }
-            else
-            {
-                age = y - 1;
-                Console.WriteLine(age);
-            }
+            age = year;
+            Console.WriteLine(age);
         }
         else
         {
-            age = y - 1;
+            age = year - 1;
             Console.WriteLine(age);
         }
         Console.WriteLine(age + 10);
-
     }
+
+}
 }
