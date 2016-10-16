@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MutantSquirrels
 {
-    class Program
+    class MutantSquirrels
     {
         static void Main(string[] args)
         {//input
