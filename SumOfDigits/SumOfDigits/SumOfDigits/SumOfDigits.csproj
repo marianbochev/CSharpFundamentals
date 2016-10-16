@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{856F3096-AE53-49B0-9CF1-16DFF8DC62E8}</ProjectGuid>
+    <ProjectGuid>{B4DE3795-0F09-4979-A33B-8F1F5085FBB4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SumOfDigits</RootNamespace>

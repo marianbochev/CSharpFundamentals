@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SumOfDigits
 {
     class SumOfDigits
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int num, sum = 0, r;
             Console.WriteLine("Enter a Number : ");
