@@ -9,7 +9,8 @@ namespace MutantSquirrels
     class MutantSquirrels
     {
         static void Main(string[] args)
-        {//input
+        {
+            //input
             ulong t = ulong.Parse(Console.ReadLine());
             ulong b = ulong.Parse(Console.ReadLine());
             ulong s = ulong.Parse(Console.ReadLine());
